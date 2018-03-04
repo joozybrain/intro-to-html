@@ -1,0 +1,41 @@
+.grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+    padding: 20px;
+}
+
+.header {
+    display: grid;
+    background-color: black;
+    color: white;
+    font-size: 20pt;
+    padding: 20px;
+}
+.navigation {
+    display: grid;
+    grid-template-columns: 4fr 1fr 1fr 1fr 1fr 4fr;
+    background-color: rgb(39, 36, 36);
+    padding: 20px;
+    font-size: 14pt;
+    color: white;
+}
+
+.body {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    background-color: grey;
+    grid-column-gap: 20px;
+    padding: 10px;
+}
+
+#body_left {
+    background-color:white;
+    padding: 20px;
+    
+}
+
+#body_right {
+    background-color:white;
+    padding: 20px;
+}
