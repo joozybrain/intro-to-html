@@ -23,7 +23,7 @@
 
 .body {
     display: grid;
-    grid-template-columns: 4fr 1fr;
+    grid-template-columns: 4fr 2fr;
     background-color: grey;
     grid-column-gap: 20px;
     padding: 10px;
@@ -38,4 +38,8 @@
 #body_right {
     background-color:white;
     padding: 20px;
+}
+
+#onepiece {
+    max-width: 100%;
 }
